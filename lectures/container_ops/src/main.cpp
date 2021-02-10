@@ -18,7 +18,7 @@ int main()
     cout << endl;
 
     int quantity = 0;
-    for (auto c : nums)
+    for (auto c : nums) // range-based for
         if (c == 5)
             quantity++;
     cout << "There are " << quantity << " fives." << endl;
