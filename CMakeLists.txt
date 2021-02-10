@@ -3,3 +3,4 @@ project(cxx_coursera)
 
 add_subdirectory(hello_wrld)
 add_subdirectory(types)
+add_subdirectory(container_ops)
