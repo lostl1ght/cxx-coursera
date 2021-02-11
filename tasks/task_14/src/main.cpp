@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void MoveStrings(vector<string> &dst, vector<string> &src)
+void MoveStrings(vector<string> &src, vector<string> &dst)
 {
     for (const auto &s : src)
         dst.push_back(s);
@@ -22,7 +22,7 @@ int main()
 {
     vector<string> dst = {"g"};
     vector<string> src = {"ab", "sd", "dm"};
-    MoveStrings(dst, src);
+    MoveStrings(src, dst);
     print_str_vec(dst);
     cout << src.size();
     return 0;
