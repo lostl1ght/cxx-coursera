@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(cxx_coursera)
+project(cxx-coursera-white-belt)
 
 add_subdirectory(lectures/hello_wrld)
 add_subdirectory(lectures/types)
